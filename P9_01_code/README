@@ -1,0 +1,35 @@
+README
+
+PROJET 9 : Prédisez la demande en électricité
+
+Le but de ce projet est de prédire  la consommation électrique sur une série chronologique que nous aurons au préalable corrigée des effets de la température. Sur cette série corrigée nous allons effectuez une désaisonnalisation avec les moyennes mobiles.
+Enfin nous allons effectuez une prévision de la consommation de la série corrigée de l'effet de la température sur un an, en utilisant la méthode de Holt Winters  puis la méthode SARIMA.
+
+Pour faire cela, nous disposition de deux jeux de données : 
+
+• conso_mensuelle.xlsx: donnée de la consommation électrique provenant du site de RTE France 
+
+• DJU_chauffage.xlsx : Donnée Météo provenant de cegibat France
+
+
+Notre études est scindée en quatre grosses parties:
+
+Partie 1 : Nettoyage des données
+Partie 2 : C’est notre mission 1
+Partie 3 : C’est notre mission 2
+Partie 4 : C’est notre mission 3
+Partie 5 : C’est notre mission 4
+
+Environnement
+
+Pandas, numpy, missingno, matplotlib, seaborn, statsmodels.api, statsmodels.formula.api, scipy.stats, statsmodels.stats.outliers_influence,  statsmodels.
+
+Pour l’installation de missingno : Sur jupyter notebook il faut exécuter : 
+!pip install missingno
+
+
+Pour l’installation de pyramid-arima : Sur jupyter notebook il faut exécuter :
+!pip3 install pyramid-arima
+
+
+
